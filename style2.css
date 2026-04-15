@@ -38,7 +38,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.4 rem;
+  font-size: 1.4rem;
   color:#b0b0b8;
 }
 
@@ -457,6 +457,6 @@ figcaption {
   transition: background-color 0.3s; 
 }
 
-.tour-button {
+.tour-button:hover {
   background-color: #2b6289;
 }
