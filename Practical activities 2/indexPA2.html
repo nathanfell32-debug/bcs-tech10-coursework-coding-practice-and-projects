@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>My Enhanced website</title>
+        <style>
+
+        /* making the body look nice */
+            body {
+                font-family: Arial, sans-serif;
+                max-width: 800px;
+                margin: 0 auto;
+                padding: 20px;
+                background-color: #f0f0f0;
+            }
+        /* styling the headings */
+            h1 {
+                 color: #2c3e50;
+                 text-align: center;
+            }
+        /* making the image responsive */
+            img {
+                max-width: 100%;
+                height: auto;
+                display: block;
+                margin: 20px auto;
+                border-radius: 8px;
+            }
+        /* styling the links */
+            a {
+                color: #3498db;
+                text-decoration: none;
+            }
+
+            a:hover {
+               text-decoration: underline;
+            }
+        /* styling paragraphs */
+            p {
+                line-height: 1.6;
+                color: #333;
+            }
+
+            /*basic reset */
+
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            body {
+                font-family: arial, sans-serif;
+                line-height: 1.6;
+                background-color: #f4f4f4;
+            }
+
+            /*navigation styling */
+
+            .nav-container {
+                background-color: #333;
+                padding: 1rem 0;
+                position: sticky;
+                top: 0;
+            }
+
+            .main-nav ul {
+                list-style: none;
+                display: flex;
+                justify-content: center;
+                gap: 2rem;
+            }
+
+            .main-nav a {
+                color: white;
+                text-decoration: none;
+                padding: 0.5rem 1rem;
+                transition: color 0.3s ease;
+            }
+
+            .main-nav a:hover {
+                color: #ffd700;
+            }
+
+            /* header styling */
+
+           .header {
+            text-align: center;
+            padding: 3rem 1rem;
+            background-color: #fff;
+            margin-bottom: 2rem;
+           } 
+
+           .header h1 {
+            color: #333;
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+           }
+
+           .subtitle {
+            color: #666;
+            font-size: 1.2rem;
+           } 
+
+           /* Main content styling */
+
+           .main-content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 1rem;
+           }
+
+           .about-section, .services-section, .contact-section {
+            background-color: white;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+           }
+
+           /* image styling */
+           img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+           }
+
+           h2 {
+            color: #333;
+            margin-bottom: 1rem;
+            font-size: 1.8rem;
+           }
+
+           /* text-formatting */
+
+           .highlight {
+            background-color: #ffd700;
+            padding: 0.2rem 0.5rem;
+            border-radius: 4px;
+           }
+
+           em {
+            color: #666;
+            font-size: italic;
+           }
+
+           .email {
+            color: #0066cc;
+            font-weight: bold;
+           }
+
+           .email {
+            color: #0066cc;
+            font-weight: bold;
+           }
+
+           /* lists styling */
+
+           ul {
+            list-style-postion: inside;
+            margin: 1rem;
+           }
+
+           ul li {
+            margin: 0.5rem;
+           }
+
+           /* link styling */
+
+           a {
+            color: #3498db;
+            text-decoration: none;
+            transition: color 0.3s ease;
+           }
+
+           a:hover {
+            color: #2980b9;
+            text-decoration: underline;
+           }
+
+           /* footer styling */
+
+            .footer {
+            text-align: center;
+            padding: 2rem;
+            background-color: #333;
+            color: white;
+            margin-top: 2rem;
+           }
+
+           .footer p {
+            color: white;
+           }
+
+        </style>
+    </head>
+    <body>
+
+        <!--Navigation section-->
+        <div class="nav-container">
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <!--Header section-->
+        <div class="header">
+          <h1>Welcome to my website</h1>
+          <p class="subtitle">Learning <em>HTML</em> and <em>CSS</em></p>
+        </div>
+
+         <img src="practical activity images/backgroundimages.jpg" alt="">
+          <h2>About me</h2>
+        <p>Hello! I'm learning web development through ITonline learning. 
+           This is my first page where i am practicing using HTML and CSS</p>
+
+           <h2>My favourite websites</h2>
+           <ul>
+            <li><a href="http://www.youtube.com" target="blank">youtube</a></li>
+            <li><a href="http://www.wikipedia.org" target="blank">wikipedia</a></li>
+           </ul>
+           <br>
+
+        <!-- Main content section -->
+
+        <div class="main-content">
+            <div class="about-section" id="about">
+                <h2>About me</h2>
+                <p>Welcome to my website! Here you'll find <span style="font-size: 1.2em;">
+                   amazing content</span> about web development.</span></p>
+                   <p>I believe in creating <em>beautiful</em> and <em>functional</em> websites that make a difference.</p>
+            </div>
+
+            <div class="services-section" id="services">
+                <h2>My services</h2>
+                <p>I specialise in:</p>
+                <ul>
+                    <li><span class="highlight">web design</span></li>
+                    <li><em>content creation</em></li>
+                    <li><strong>Digital marketing</strong></li>
+                </ul>
+            </div>
+
+            <div class="contact-section" id="contact">
+                <h2>Contact me</h2>
+                <p>Get in touch: <span class="email">nathan.fell32@gmail.com</span></p>
+                 <p>Follow me on social media:</p>
+            <ul>
+                <li><a href="#twitter">Twitter</a></li>
+                <li><a href="#facebook">Facebook</a></li>
+                <li><a href="#instagram">Instagram</a></li>
+            </ul>
+            </div>
+        </div>
+
+
+
+        <!--Footer-section-->
+
+        <div class="footer">
+            <p>&copy; 2026 My website</p>
+        </div>
+        
+
+       
+    </body>
+</html>
