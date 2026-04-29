@@ -4,22 +4,6 @@ color: #e6e6e6;
 font-family: "montserrat", sans-serif;
 }
 
-h1 {
-  font-size: 2.5rem;
-  color: #e6e6e6;
-  margin-bottom: 10px;
-} 
-
-#discovery {
-  border: 20px outset #a7d8fa;
-  padding: 10px;
-}
-
-#images {
-  border: 10px outset #a7e77e;
-  padding: 10px;
-}
-
 body {
 background-color: #32323c;
 font-family: "montserrat", sans-serif;
@@ -117,7 +101,7 @@ nav a:hover {
   text-align: center;
   padding: 2rem;
   padding-top:60;
-  background-image: url("images2/heropicture.jpg");
+  background-image: url("images/heropicture.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
