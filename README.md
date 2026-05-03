@@ -2,7 +2,7 @@
 
 This repository contains my practical activities and coding challenges completed as part of the BCS Tech10 HTML & Web Essentials course. Each folder represents a hands‑on task where I applied the HTML and CSS techniques learned throughout the modules.
 
-## 📁 Contents
+##  Contents
 
 ### Practical Activities (1–5)
 Exercises covering:
@@ -27,13 +27,13 @@ Small tasks used to practise:
 Located in:
 - `/coding-challenges`
 
-## 🧰 Tools Used
+##  Tools Used
 - Visual Studio Code  
 - Git & GitHub  
 - HTML5  
 - CSS3  
 
-## 🎯 Purpose
+##  Purpose
 This repo tracks my progress through the course and keeps all my practical work organised in one place.
 
 
