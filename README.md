@@ -29,7 +29,8 @@ Small tasks used to practise:
 - Experimenting with layouts and styling
 - using semantic elements
 - Typography
-- flexbox 
+- flexbox
+- image gallery
 
 Located in:
 - `/coding-challenges 1`
@@ -37,7 +38,9 @@ Located in:
 - `/coding-challenges 3'
 - `/coding-challenges 4'
 - `/coding-challenges 5'
-- `/coding-challenges 6'
+- `/coding-challenges 6 - Typography'
+- `/coding-challenges 7 - Image Gallery'
+- 
 
 ##  Tools Used
 - Visual Studio Code  
