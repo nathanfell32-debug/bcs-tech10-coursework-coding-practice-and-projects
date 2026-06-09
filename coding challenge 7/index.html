@@ -10,27 +10,48 @@
     </head>
 
     <body>
+        <!-- Header section -->
         <header>Image Gallery Challenge</header>
 
         <!-- This is the navigation section -->
-         <i class="fa-brands fa-font-awesome"></i>
+         <nav class="nav-bar">
+
+            <!-- Left side icons -->
+         <div class="nav-icons">
+            <i class="fa-brands fa-font-awesome"></i>
             <i class="fab fa-facebook-f"></i>
             <i class="fab fa-twitter"></i>
             <i class="fab fa-instagram"></i>
-            <nav>
-                <ul>
+         </div>
+
+         <!-- Middle links -->
+
+                <ul class="nav-links">
                     <li>Home</li>
                     <li>About</li>
                     <li>Contact us</li>
                 </ul>
+
+                <!-- Right side search bar and basket -->
+
+                <div class="nav-actions">
+                    <input type="text" placeholder="search..." class="search-bar">
+
+                    <button class="info-btn">?</button>
+
+                    <button class="basket-btn">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </button>
+                    
+                </div>
             </nav>
 
-            <!-- The search bar will go here -->
 
+        
+         <main>
+              <!-- This is the main gallery section -->
 
-        <!-- This is the Gallery section -->
-
-        <div>
+        <div class="gallery">
             <img src="Images/gallery1.jpg" alt="concert">
             <img src="Images/gallery2.jpg" alt="guitarist">
             <img src="Images/gallery3.jpg" alt="guitar">
@@ -45,11 +66,24 @@
             <img src="Images/gallery12.jpg" alt="videogame desktop setup">
         </div>
 
+        <!-- Contact form section -->
 
-        <!-- This will be the contact form section -->
+        <section class="contact-section">
+            <h2>Contact Us</h2>
 
+            <form class="contact-form">
+
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Your name">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Your email">
+                <label for="message">Message</label>
+                <textarea id="message" placeholder="Write your message"></textarea>
+                <button type="submit">Send message</button>
+            </form>
         
-
+        </section>
+     </main>
 
         <!-- This is the footer section -->
          <footer>
@@ -69,10 +103,6 @@
          </div>
 
          </footer>
-
-         <!-- The contact form will go here -->
-
-
 
     </body>
 </html>
