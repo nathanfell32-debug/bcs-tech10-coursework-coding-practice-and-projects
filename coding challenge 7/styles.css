@@ -39,8 +39,9 @@
 }
 
 .search-bar {
-    size: 150px;
+    width: 150px;
     height: 30px;
+    padding: 5px;
 }
 
 .info-btn {
@@ -70,6 +71,31 @@
 
 .gallery img.music {
     border: 4px solid #4a90e2;
+}
+
+.gallery img.landscape {
+    border-radius: 20px;
+}
+
+.gallery img.painting {
+    filter: brightness(1.1);
+}
+
+.gallery img.gaming {
+    transform: rotate(1deg);
+}
+
+.gallery img.feature {
+    height: 350px;
+    grid-column: span 2;
+}
+
+.gallery img.rect {
+    height: 200px;
+}
+
+.gallery img.standard {
+    height: 250px;
 }
 
 .gallery img:hover {
