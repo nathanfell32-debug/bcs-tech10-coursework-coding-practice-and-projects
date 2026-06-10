@@ -22,22 +22,26 @@ Located in:
 - (more to be added)
 
 ### Coding Challenges
-Small tasks used to practise:
-- HTML/CSS fundamentals
-- Clean file structure
-- Reusable components
-- Experimenting with layouts and styling
-- using semantic elements
-- Typography
-- flexbox
+- personal portfolio
+- responsive design
+- css animation
+- form styling
+- flexbox/grid
+- typography
 - image gallery
+- css framework
+- map page
+- accessibility
+- PSD/ image to html conversion
+- html email template
+- web application UI design 
 
 Located in:
 - `/coding-challenges 1`
 - `/coding-challenges 2'
 - `/coding-challenges 3'
 - `/coding-challenges 4'
-- `/coding-challenges 5'
+- `/coding-challenges 5'- flexbox/grid
 - `/coding-challenges 6 - Typography'
 - `/coding-challenges 7 - Image Gallery'
 - 
