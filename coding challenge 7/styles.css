@@ -54,7 +54,26 @@
 /* Main Gallery styling */
 
 .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    padding: 2rem;
+}
 
+.gallery img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.gallery img.music {
+    border: 4px solid #4a90e2;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
 }
 
 /* Contact form styling */
@@ -70,13 +89,27 @@
 /* Footer styling */
 
 .footer-content {
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #0d8070;
 
 }
 
 .footer-links {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    color: blue;
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+    align-items: center;
 
 }
 
 .footer-social {
+    color: blue;
+    font-size: 30px;
 
 }
