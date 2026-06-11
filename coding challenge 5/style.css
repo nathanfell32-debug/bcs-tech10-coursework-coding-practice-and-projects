@@ -1,1 +1,59 @@
-{\rtf1}
+.grid-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.grid-item {
+    background: #f6f6;
+}
+
+.item1 {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.item2 {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.item3 {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.item4 {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.item5 {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.item6 {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.item7 {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.item8 {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.item9 {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.item10 {
+    grid-column: span 2;
+    grid-row: span 2;
+}
