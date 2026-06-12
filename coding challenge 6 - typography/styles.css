@@ -1,0 +1,74 @@
+.header-section {
+    
+}
+.heading-section {
+    text-decoration: underline;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+}
+.nav-layout {
+    display: flex;
+    justify-content: center;
+}
+.nav-section  {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    padding: 0;
+    margin: 0;
+    
+}
+.header-section i {
+    background-color: red;
+    font-size: 50px;
+    float: right;
+}
+.list-style {
+    background-color: teal;
+    font-size: 20px;
+    padding: 5px 10px
+    
+    
+    
+}
+
+
+
+.container-one {
+    font-family: 'cinzel'; 
+    font-size: 40px;
+    color: rgb(97, 97, 163);
+    border: 2px solid red;
+    padding: 5px;
+    margin: 500;
+}
+.container-two {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    font-size: 40px;
+    color: purple;
+    border: 3px solid purple;
+    float: right;
+    padding: 20px;
+    font-weight: 600;
+    background-color:aquamarine;
+}
+.container-three {
+    font-family: 'nabla';
+    border: 5px solid aqua;
+    padding: 30px;
+    font-size: 50px;
+    background-color: black;
+}
+.container-four {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    color: #f6f6f6;
+    background-color:blue;
+}
+.container-five {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color:rgb(97, 97, 163);
+    font-weight: 400;
+    border: 5px solid black;
+}
