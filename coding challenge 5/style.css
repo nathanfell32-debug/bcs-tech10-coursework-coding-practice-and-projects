@@ -63,6 +63,8 @@
     grid-row: span 2;
 }
 
+/* Navigation section styling */
+
 .nav-bar {
     margin: auto;
     max-width: 1200px;
@@ -90,4 +92,57 @@
 
 .nav-bar a:hover {
     color: #555;
+}
+
+/* Call to action section styling */
+
+.cta-section {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 40px 20px;
+    background: teal;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.cta-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.invite-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.invite-form input,
+.invite-form textarea {
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+.invite-form textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+.cta-section button {
+    padding: 12px 30px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 6px;
+    background: white;
+    color: teal;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.cta-section button:hover {
+    background: #e6e6e6;
 }

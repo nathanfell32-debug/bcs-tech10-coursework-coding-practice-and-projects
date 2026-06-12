@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <title>Flexbox & Grid coding challenge</title>
         <meta charset="UTF-8">
         <meta name="description" content="flexbox challenge">
         <meta name="keywords" content="flexbox challenge page css grid">
@@ -44,8 +45,17 @@
         <!-- The call to action flexbox section will go here -->
       <section class="cta-section">
         <h2>Invite Users</h2>
-        <button>Invite</button>
 
+        <form class="invite-form">
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <textarea placeholder="Message"></textarea>
+
+            <div class="cta-buttons">
+                <button class="send-btn">Send Invite</button>
+                <button class="skip-btn">Skip this step</button>
+            </div>
+        </form>
 
       </section>
     </main>
