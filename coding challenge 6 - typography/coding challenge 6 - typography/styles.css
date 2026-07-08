@@ -1,0 +1,134 @@
+/* HEADER */
+
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    font-family: 'inter', sans-serif;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #ddd;
+}
+.heading-section {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.tagline {
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 4px;
+}
+
+.nav-layout {
+    display: flex;
+}
+
+.nav-section  {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    padding: 0;
+    margin: 0;
+}
+
+.list-style {
+    font-size: 14px;
+    font-weight: 500;  
+    letter-spacing: 1px;
+}
+
+.social-icons {
+    font-size: 18px;
+    margin-left: 1rem;
+}
+
+/*  GRID  */
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 2rem;
+    padding: 3rem;
+    font-family: 'inter', sans-serif;
+}
+
+/* MAIN HEADLINE */
+
+.container-main-headline {
+    grid-column: 2 / 11;
+    grid-row: 1;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+}
+
+.container-main-headline p {
+    font-size: 80px;
+    font-weight: 800;
+    line-height: 1.1;
+    letter-spacing: -1px;
+    margin: 0;
+}
+/* supporting line */
+
+.container-supporting {
+    grid-column: 7 / 12;
+    grid-row: 1;
+    margin-top: 0rem;
+}
+
+.container-supporting p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #222;
+    line-height: 1.4;
+    margin: 0;
+}
+
+/* secondry headline */
+
+.container-secondary {
+    grid-column: 2 / 10;
+    grid-row: 2;
+}
+
+.container-secondary p {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0;
+}
+
+/* BODY PARAGRAPH */
+
+.container-body {
+    grid-column: 2 / 7;
+    grid-row: 3;
+    margin-top: 3rem;
+    max-width: 45ch;
+}
+
+.container-body p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #666;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* SIDE BOX */
+
+.container-sidebox {
+    grid-column: 9 / 12;
+    grid-row: 3;
+    align-self: start;
+    margin-top: 2rem;
+}
+.container-sidebox p {
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: +1px;
+    margin: 0;
+}
