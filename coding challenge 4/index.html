@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Form styling coding challenge</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    </head>
+
+    <body>
+<!-- header / navigation bar -->
+      <header class="header">
+        <nav class="nav">
+            <ul class="nav-links">
+                <li>home</li>
+                <li>About us</li>
+                <li>Purchase</li>
+                <li>featured</li>
+                <li>Contact us</li>
+            </ul>
+
+            <div class="search-bar">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="search">
+            </div>
+
+            <div class="nav-icons">
+                <i class="fa-solid fa-circle-question"></i>
+                <i class="fa-solid fa-basket-shopping"></i>
+            </div>
+        </nav>
+      </header>
+
+      <!-- MAIN CONTACT FORM -->
+        <main class="main">
+            <section class="contact-form">
+                <h2>Contact Us</h2>
+        
+          <form>
+
+            <label for="topic">Please select a topic related to your inquiry</label>
+            <select id="topic">
+                <option value="">-- Please choose an option --</option>
+                <option value="general">General Inquiry</option>
+                <option value="support">Support</option>
+                <option value="purchase">Purchase questions</option>
+                <option value="feedback">Feedback</option>
+            </select>
+
+            <label for="first-name">First Name</label>
+            <input id="first-name" type="text" placeholder="Your first name">
+
+            <label for="last-name">Last name</label>
+            <input id="last-name" type="text" placeholder="Your last name">
+
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="your email">
+
+            <label for="message">Message</label>
+            <input id="message" placeholder="Your message">
+
+            <button type="submit">Send</button>
+          </form>
+            </section>
+        
+        </main>
+    </body>
+</html>
