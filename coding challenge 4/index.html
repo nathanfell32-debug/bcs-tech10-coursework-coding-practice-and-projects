@@ -38,8 +38,9 @@
             <section class="contact-form">
                 <h2>Contact Us</h2>
         
-          <form>
+          <form class="form-grid">
 
+          <div class="left-col">
             <label for="topic">Please select a topic related to your inquiry</label>
             <select id="topic">
                 <option value="">-- Please choose an option --</option>
@@ -49,6 +50,11 @@
                 <option value="feedback">Feedback</option>
             </select>
 
+            <label for="message">Message</label>
+            <input id="message" placeholder="Your message">
+          </div>
+
+          <div class="right-col">
             <label for="first-name">First Name</label>
             <input id="first-name" type="text" placeholder="Your first name">
 
@@ -57,9 +63,7 @@
 
             <label for="email">Email</label>
             <input id="email" type="email" placeholder="your email">
-
-            <label for="message">Message</label>
-            <input id="message" placeholder="Your message">
+          </div>
 
             <button type="submit">Send</button>
           </form>
