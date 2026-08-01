@@ -7,45 +7,80 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
+    <!--header/navigation section-->
+    <header class="header">
+        <div class="logo">LOGO</div>
+    <nav class="main-nav">
         <ul>
-            <li>Home</li>
-            <li>About us</li>
-            <li>Purchase</li>
-            <li>featured</li>
-            <li>Contact us</li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Purchase</a></li>
+            <li><a href="#">Featured</a></li>
+            <li><a href="#">Contact us</a></li>
         </ul>
     </nav>
+    </header>
+<!--HERO section-->
+<section class="hero">
+    <div class="hero-navigation">
+        <span class="arrow left">&#10094</span>
+        <span class="arrow right">&#10095</span>
+    </div>
+    <div class="her-text">
+        <h2>Hero Title Example</h2>
+        <P>Hero sub-title description</P>
+        <div class="dots">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </div>
 
-    <h3>HERO TITLE EXAMPLE</h3>
-    <p>hero sub heading</p>
-
-    <main>
-        <h1>main hero title</h1>
-        <section>
-            <p>sub hero main paragraph section</p>
-            <button>learn more</button>
+    <div class="hero-content">
+        <div class="hero-image">
+            <!-- placeholder for hero image-->
+             <h3>Hero Title Example</h3>
+             <p>Hero sub-title description</p>
+             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Nostrum, natus aliquam! Rerum odit dignissimos perspiciatis, 
+                vitae enim sed neque ratione porro pariatur facilis velit molestias, 
+                a modi repellat reiciendis veniam!</p>
+                <button class="read-more">Read More</button>
+        </div>
+    </div>
+</section>
+    
+<!-- sponsors section-->
+        <section class="sponsors">
+            <h2>sponsors example</h2>
+            <p>sponsors description</p>
+            <div class="sponsor-logos">
+                <div class="sponsors-box"></div>
+                <div class="sponsors-box"></div>
+                <div class="sponsors-box"></div>
+                <div class="sponsors-box"></div>
+                <div class="sponsors-box"></div>
+            </div>
         </section>
-
-        <section>
-            <p>sponsors here looks like a nav almost</p>
-        </section>
-
-            <section class="contact-section">
-            <h2>Contact Us</h2>
-
-            <form class="contact-form">
-
-                <label for="name">Name</label>
+<!-- footer section -->
+ <footer class="footer">
+    <div class="footer-content">
+        <!-- contact form-->
+         <div class="contact-us">
+            <h3>Contact us</h3>
+           <form>
+                <label for="name">Full Name</label>
                 <input type="text" id="name" placeholder="Your name">
                 <label for="email">Email</label>
                 <input type="email" id="email" placeholder="Your email">
                 <label for="message">Message</label>
                 <textarea id="message" placeholder="Write your message"></textarea>
                 <button type="submit">Send message</button>
-            </form>
-        </section>
-        <nav>
+            </form> 
+    </div>
+    <!-- site map -->
+     <div class="sitemap">
+        <h3>sitemap</h3>
         <ul>
             <li>Home</li>
             <li>About us</li>
@@ -53,13 +88,16 @@
             <li>featured</li>
             <li>Contact us</li>
         </ul>
-    </nav>
-    <div>
-        <p>phone number and email here</p>
-        <p>big logo image used here next to phone number utilising space</p>
+     </div>
+
+     <!-- logo and contact information -->
+      <div class="footer-logo">
+        <div class="logo">LOGO</div>
+        <p>0800 55 3495</p>
+        <p>customer@educationacademy.com</p>
+      </div>
     </div>
-    </main>
-    <footer>&copy; copywrite 2026. All rights reserved</footer>
-    
+    <p class="copyright">&copy; copywrite 2026. All rights reserved.</p>
+ </footer>    
 </body>
 </html>
