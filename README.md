@@ -38,7 +38,7 @@ Located in:
 Located in:
 - `/coding-challenges 1`
 - `/coding-challenges 2'
-- `/coding-challenges 3'
+- `/coding-challenges 3'- CSS Animation
 - `/coding-challenges 4'- Form styling
 - `/coding-challenges 5'- flexbox/grid
 - `/coding-challenges 6 - Typography'
