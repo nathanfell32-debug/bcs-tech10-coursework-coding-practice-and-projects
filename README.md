@@ -36,7 +36,7 @@ Located in:
 - web application UI design 
 
 Located in:
-- `/coding-challenges 1`
+- `/coding-challenges 1`- My Personal Portfolio
 - `/coding-challenges 2'
 - `/coding-challenges 3'- CSS Animation
 - `/coding-challenges 4'- Form styling
